@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "repl_python3_beta_xoxoBOT"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+discord = "^1.7.3"
+youtube_dl = "^2021.6.6"
+Flask = "^2.0.2"
+"discord.py" = "^1.7.3"
+PyNaCl = "^1.4.0"
+Werkzeug = "^2.0.3"
+selenium = "^4.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

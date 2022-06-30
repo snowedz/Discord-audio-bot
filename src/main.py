@@ -1,11 +1,12 @@
 import discord
 import os
 import time
+import json
 from discord.ext import commands
 from discord import FFmpegPCMAudio
 from webserver import keep_alive
 
-JSON_FILE = 'structure.json'
+JSON_FILE = './src/structure.json'
 jsonFile = open(JSON_FILE)
 jsonData = json.load(jsonFile)
 
@@ -28,32 +29,34 @@ async def on_ready():
 async def on_message(message):
   if message.author == client.user:
     return
-
-  if message.content.startswith('.help'):
-    embedVar = discord.Embed(title="Lista de comandos", color=0x00ff00)
-    embedVar.add_field(name="Lista", value=getCommands(), inline=False )
-    await message.channel.send(embed=embedVar)
-
-  try:
+  if message.content.startswith('.'):
+    if message.content.startswith('.help'):
+      embedVar = discord.Embed(title="Lista de comandos", color=0x00ff00)
+      embedVar.add_field(name="Lista", value=getCommands(), inline=False )
+      await message.channel.send(embed=embedVar)
+      return
+    
+    
     discordCommand = message.content
-    jsonObject = jsonData[discordCommand]
-
-    if (jsonObject['image']):
-      await message.channel.send(jsonObject['image'])
-
-    if (jsonObject['phrase']):
-      await message.channel.send(jsonObject['phrase'])
-
-    if (jsonObject['audio']):
-      channel = message.author.voice.channel
-      voice = await channel.connect()
-      source = FFmpegPCMAudio(jsonObject['audio'])
-      voice.play(source)
-      time.sleep(jsonData['duration']) # Is this really required? Can't be async?
-      await voice.disconnect()
-
-  except KeyError:
-    print('Digite .help para ver a lista de comandos')
+    if discordCommand in jsonData:
+      jsonObject = jsonData[discordCommand]
+    
+      if (jsonObject['image']):
+        await message.channel.send(jsonObject['image'])
+  
+      if (jsonObject['phrase']):
+        await message.channel.send(jsonObject['phrase'])
+  
+      if (jsonObject['audio']):
+        channel = message.author.voice.channel
+        voice = await channel.connect()
+        source = FFmpegPCMAudio(jsonObject['audio'])
+        voice.play(source)
+        time.sleep(jsonObject['duration']) # Is this really required? Can't be async?
+        await voice.disconnect()
+  
+    else:
+      await message.channel.send('Digite .help para ver a lista de comandos')
 
 keep_alive()
 client.run(os.getenv('TOKEN'))

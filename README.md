@@ -6,6 +6,8 @@ Eduardo Neves
 
 Lucas Brabec Barreto Santana
 
+Rafael Barbosa Conceição
+
 ### Software Details
 
 - WIP (talk about specifications and whatnot)

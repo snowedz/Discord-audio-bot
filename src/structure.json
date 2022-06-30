@@ -1,0 +1,284 @@
+{
+  ".xoxo": {
+    "audio": "../resources/audio/goat.mp3",
+    "duration": 5,
+    "image": "https://c.tenor.com/sBtS2bt75twAAAAd/cute-lambida.gif",
+    "phrase": null
+  },
+  ".eita": {
+    "audio": "../resources/audio/eitaman.mp3",
+    "duration": 1.5,
+    "image": null,
+    "phrase": null
+  },
+  ".rapaz": {
+    "audio": "../resources/audio/rapaz.mp3",
+    "duration": 2,
+    "image": "https://media0.giphy.com/media/fdIFR52nLEJxLzc3tz/giphy.gif",
+    "phrase": null
+  },
+  ".irra": {
+    "audio": "../resources/audio/irra.mp3",
+    "duration": 3,
+    "image": null,
+    "phrase": null
+  },
+  ".yamete": {
+    "audio": "../resources/audio/yamete.mp3",
+    "duration": 5,
+    "image": null,
+    "phrase": "YAMETE KUDASAI!!"
+  },
+  ".posto7": {
+    "audio": "../resources/audio/posto7.mp3",
+    "duration": 10.1,
+    "image": null,
+    "phrase": "VENHA AQUI NO POSTO 7!!"
+  },
+  ".dejavu": {
+    "audio": "../resources/audio/bandadejavu.mp3",
+    "duration": 1.6,
+    "image": null,
+    "phrase": null
+  },
+  ".cavalo": {
+    "audio": "../resources/audio/cavalo.mp3",
+    "duration": 1.6,
+    "image": null,
+    "phrase": null
+  },
+  ".merda": {
+    "audio": "../resources/audio/convmerda.mp3",
+    "duration": 16.5,
+    "image": null,
+    "phrase": null
+  },
+  ".cadeirudo": {
+    "audio": "../resources/audio/cadeirudo.mp3",
+    "duration": 8.5,
+    "image": null,
+    "phrase": null
+  },
+  ".trabaia": {
+    "audio": "../resources/audio/trabaia.mp3",
+    "duration": 8.5,
+    "image": null,
+    "phrase": null
+  },
+  ".sistema": {
+    "audio": "../resources/audio/sistema.mp3",
+    "duration": 14.5,
+    "image": null,
+    "phrase": null
+  },
+  ".uepa": {
+    "audio": "../resources/audio/uepa.mp3",
+    "duration": 2,
+    "image": null,
+    "phrase": null
+  },
+  ".pauquebrando": {
+    "audio": "../resources/audio/briga.mp3",
+    "duration": 8,
+    "image": null,
+    "phrase": null
+  },
+  ".eitaporra": {
+    "audio": "../resources/audio/briga.mp3",
+    "duration": 8,
+    "image": null,
+    "phrase": null
+  },
+  ".briga": {
+    "audio": "../resources/audio/briga.mp3",
+    "duration": 8,
+    "image": null,
+    "phrase": null
+  },
+  ".pare": {
+    "audio": "../resources/audio/pare.mp3",
+    "duration": 2,
+    "image": null,
+    "phrase": null
+  },
+  ".horadoshow": {
+    "audio": "../resources/audio/bambam1.mp3",
+    "duration": 4.5,
+    "image": null,
+    "phrase": null
+  },
+  ".cademeupau": {
+    "audio": "../resources/audio/cademeu.mp3",
+    "duration": 15.5,
+    "image": null,
+    "phrase": null
+  },
+  ".moreno": {
+    "audio": "../resources/audio/moreno.mp3",
+    "duration": 6,
+    "image": null,
+    "phrase": null
+  },
+  ".marilene": {
+    "audio": "../resources/audio/marilene.mp3",
+    "duration": 6.5,
+    "image": null,
+    "phrase": null
+  },
+  ".naoconsegue": {
+    "audio": "../resources/audio/naoconsegue.mp3",
+    "duration": 2,
+    "image": null,
+    "phrase": null
+  },
+  ".taz": {
+    "audio": "../resources/audio/tazmania.mp3",
+    "duration": 8,
+    "image": null,
+    "phrase": null
+  },
+  ".gonorreia": {
+    "audio": "../resources/audio/gonorreia.mp3",
+    "duration": 14,
+    "image": null,
+    "phrase": null
+  },
+  ".calma": {
+    "audio": "../resources/audio/calma.mp3",
+    "duration": 3,
+    "image": null,
+    "phrase": null
+  },
+  ".javaiboltz": {
+    "audio": "../resources/audio/javaiboltz.mp3",
+    "duration": 3.5,
+    "image": null,
+    "phrase": null
+  },
+  ".bicho": {
+    "audio": "../resources/audio/bichopiruleta.mp3",
+    "duration": 8,
+    "image": null,
+    "phrase": null
+  },
+  ".piruleta": {
+    "audio": "../resources/audio/bichopiruleta.mp3",
+    "duration": 8,
+    "image": null,
+    "phrase": null
+  },
+  ".fdp": {
+    "audio": "../resources/audio/fdp.mp3",
+    "duration": 4,
+    "image": null,
+    "phrase": null
+  },
+  ".puta": {
+    "audio": "../resources/audio/puta1.mp3",
+    "duration": 3.5,
+    "image": null,
+    "phrase": null
+  },
+  ".bioca": {
+    "audio": "../resources/audio/bebo1.mp3",
+    "duration": 19,
+    "image": "https://i1.sndcdn.com/avatars-000092598790-6np24c-t240x240.jpg",
+    "phrase": null
+  },
+  ".chucky": {
+    "audio": "../resources/audio/jogueseu.mp3",
+    "duration": 8,
+    "image": null,
+    "phrase": null
+  },
+  ".detras": {
+    "audio": "../resources/audio/detras.mp3",
+    "duration": 5,
+    "image": "https://lparchive.org/LetsPlay/RE4/Update%2016/rockthefuckout.gif",
+    "phrase": "DETRÁS DE TI, IMBÉCIL"
+  },
+  ".vainao": {
+    "audio": "../resources/audio/vainao.mp3",
+    "duration": 4,
+    "image": null,
+    "phrase": null
+  },
+  ".linguinha": {
+    "audio": "../resources/audio/linguinha.mp3",
+    "duration": 3,
+    "image": null,
+    "phrase": null
+  },
+  ".pedemesa": {
+    "audio": "../resources/audio/quem-esfolou.mp3",
+    "duration": 4,
+    "image": null,
+    "phrase": null
+  },
+  ".testa": {
+    "audio": "../resources/audio/testa-na-cabeca.mp3",
+    "duration": 10,
+    "image": null,
+    "phrase": null
+  },
+  ".mickey": {
+    "audio": "../resources/audio/mickey.mp3",
+    "duration": 8,
+    "image": null,
+    "phrase": null
+  },
+  ".weedzao": {
+    "audio": "../resources/audio/weedzao.mp3",
+    "duration": 15,
+    "image": null,
+    "phrase": null
+  },
+  ".doisovim": {
+    "audio": "../resources/audio/doisovim.mp3",
+    "duration": 11,
+    "image": null,
+    "phrase": null
+  },
+  ".partido": {
+    "audio": "../resources/audio/partidodocara.mp3",
+    "duration": 4,
+    "image": null,
+    "phrase": null
+  },
+  ".treinar": {
+    "audio": "../resources/audio/treinar.mp3",
+    "duration": 19,
+    "image": null,
+    "phrase": null
+  },
+  ".alarme": {
+    "audio": "../resources/audio/alarme.mp3",
+    "duration": 7,
+    "image": null,
+    "phrase": null
+  },
+  ".fantasias": {
+    "audio": "../resources/audio/fantasias.mp3",
+    "duration": 13,
+    "image": null,
+    "phrase": null
+  },
+  ".fudido": {
+    "audio": "../resources/audio/vainao.mp3",
+    "duration": 4,
+    "image": null,
+    "phrase": null
+  },
+  ".sextacheira": {
+    "audio": "../resources/audio/sextacheira.mp3",
+    "duration": 91,
+    "image": null,
+    "phrase": null
+  },
+  ".aloispetor": {
+    "audio": "../resources/audio/aloispetor.mp3",
+    "duration": 91,
+    "image": null,
+    "phrase": null
+  }
+}

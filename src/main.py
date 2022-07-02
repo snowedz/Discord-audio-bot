@@ -5,6 +5,9 @@ import json
 from discord.ext import commands
 from discord import FFmpegPCMAudio
 from webserver import keep_alive
+from dotenv import load_dotenv
+
+load_dotenv()
 
 JSON_FILE = './src/structure.json'
 jsonFile = open(JSON_FILE)
@@ -59,4 +62,4 @@ async def on_message(message):
       await message.channel.send('Digite .help para ver a lista de comandos')
 
 keep_alive()
-client.run(os.getenv('TOKEN'))
+client.run(os.getenv('DISCORD_TOKEN'))

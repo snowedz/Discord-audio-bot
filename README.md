@@ -1,12 +1,12 @@
 ### Author
 
-Eduardo Neves
+[Eduardo Neves](https://github.com/snowedz)
 
 ### Contributors
 
-Lucas Brabec Barreto Santana
+[Lucas Brabec Barreto Santana](https://github.com/Brabec)
 
-Rafael Barbosa Conceição
+[Rafael Barbosa Conceição](https://github.com/rafabarbosa)
 
 ### Software Details
 
@@ -14,4 +14,8 @@ Rafael Barbosa Conceição
 
 ### Future Goals
 
-- WIP (maybe migrate audio folder to cloud services)
+- WIP (migrate audio folder to cloud services ASAP)
+
+### Badges
+
+[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
